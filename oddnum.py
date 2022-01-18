@@ -1,8 +1,5 @@
 list1 = [10, 21, 4, 45, 66, 93]
   
-# iterating each number in list
-for num in list1:
-      
-    # checking condition
-    if num % 2 != 0:
-       print(num, end = " ")
+only_odd = [num for num in list1 if num % 2 == 1]
+  
+print(only_odd)
